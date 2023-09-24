@@ -1,0 +1,281 @@
+# A tibble: 6 x 12
+  smoker arterial_hypert… diabetes dyslipidemia CTC_1_0to20mgpe…
+   <dbl>            <dbl>    <dbl>        <dbl>            <dbl>
+1      1                1        0            0                0
+2      1                0        0            0                0
+3      1                1        0            0                1
+4      0                1        0            0                0
+5      1                0        1            0                1
+6      1                0        0            0                0
+# … with 7 more variables: immunossupressants <dbl>, TNFi <dbl>,
+#   meanCRP_over_5_in1y <dbl>, meanCRP_over_5_in3y <dbl>,
+#   Clinical_activity <dbl>, sex_0female_1male <dbl>,
+#   TARGET_arterial_event <dbl>
+ [1] "smoker"                         "arterial_hypertension"         
+ [3] "diabetes"                       "dyslipidemia"                  
+ [5] "CTC_1_0to20mgperday_2_over20mg" "immunossupressants"            
+ [7] "TNFi"                           "meanCRP_over_5_in1y"           
+ [9] "meanCRP_over_5_in3y"            "Clinical_activity"             
+[11] "sex_0female_1male"              "TARGET_arterial_event"         
+# A tibble: 6 x 12
+  smoker arterial_hypert… diabetes dyslipidemia CTC_1_0to20mgpe…
+   <dbl>            <dbl>    <dbl>        <dbl>            <dbl>
+1      0                1        0            0                0
+2      1                0        0            1                0
+3      1                1        1            1                1
+4      0                0        1            1                0
+5      0                1        0            1                0
+6      0                1        0            0                0
+# … with 7 more variables: immunossupressants <dbl>, TNFi <dbl>,
+#   meanCRP_over_5_in1y <dbl>, meanCRP_over_5_in3y <dbl>,
+#   Clinical_activity <dbl>, sex_0female_1male <dbl>,
+#   TARGET_type_0ACS_1stroke <dbl>
+ [1] "smoker"                         "arterial_hypertension"         
+ [3] "diabetes"                       "dyslipidemia"                  
+ [5] "CTC_1_0to20mgperday_2_over20mg" "immunossupressants"            
+ [7] "TNFi"                           "meanCRP_over_5_in1y"           
+ [9] "meanCRP_over_5_in3y"            "Clinical_activity"             
+[11] "sex_0female_1male"              "TARGET_type_0ACS_1stroke"      
+function (x) 
+{
+    structure(x, class = unique(c("AsIs", oldClass(x))))
+}
+<bytecode: 0xfe123e0>
+<environment: namespace:base>
+[Event] Repeat 100 times Random Forest mean MCC = 0.2376327
+    Warning messages:
+1: In .local(x, ...) : Variable(s) `' constant. Cannot scale data.
+2: In .local(x, ...) : Variable(s) `' constant. Cannot scale data.
+3: In .local(x, ...) : Variable(s) `' constant. Cannot scale data.
+4: In .local(x, ...) : Variable(s) `' constant. Cannot scale data.
+5: In .local(x, ...) : Variable(s) `' constant. Cannot scale data.
+rest mean MCC = NULL
+0.083392 
+
+NULL
+     lower       Mean      upper 
+0.01065826 0.08339200 0.17477683 
+[Event] Repeat 100 times kernel SVM mean MCC = NULL
+0.8995454 
+
+NULL
+    lower      Mean     upper 
+0.8994899 0.8995454 0.8996588 
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+[Type] Repeat 100 times kernel SVM mean MCC = NULL
+0.05913124 
+
+NULL
+     lower       Mean      upper 
+0.05913124 0.05913124 0.05913124 
+[Event] MonteCarlo kernel SVM mean MCC = NULL
+0.317183 
+
+NULL
+    lower      Mean     upper 
+0.2709809 0.3171830 0.3637048 
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+ Setting default kernel parameters  
+[Type] MonteCarlo kernel SVM mean MCC = NULL
+0.1311909 
+
+NULL
+     lower       Mean      upper 
+0.03796427 0.13119090 0.23177654 

@@ -1,0 +1,5151 @@
+Loading required package: PRROC
+Loading required package: e1071
+Loading required package: randomForest
+randomForest 4.6-14
+Type rfNews() to see new featurscript_dir: .
+fileName = /home/davide/projects/arterial_events_and_IBD/data/journal.pone.0201991.s001_EDITED_event_type_binary.csv
+Number of executions = 100
+[Execlution number 1 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6510118
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  0  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  0  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.667 	 	0.500 	 	1.00There were 50 or more warnings (use warnings() to see the first 50)
+00]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1890698
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	0.189	0.600
+
+[Execlution number 3 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1534264
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.153	0.500
+
+[Execlution number 4 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1369538
+ROC AUC 		0.4
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.137	0.400
+
+[Execlution number 5 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1890698
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	0.189	0.600
+
+[Execlution number 6 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.4506939
+ROC AUC 		0.75
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.500 	 0.667 	 	0.667 	 	1.000 	 	0.500		0.500	 	1.000	 	0.451	0.750
+
+[Execlution number 7 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  0  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.000 	 	NaN 	 	0.000		0.000	 	NaN	 	NaN	NaN
+
+[Execlution number 8 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1074258
+ROC AUC 		0.2
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.632 	 0.000 	 	0.167 	 	0.000 	 	0.200		0.000	 	0.500	 	0.107	0.200
+
+[Execlution number 9 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	1.000	1.000
+
+[Execlution number 10 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.5
+ROC AUC 		0.9
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	0.500	0.900
+
+[Execlution number 11 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6416481
+ROC AUC 		0
+
+
+TOTAL:
+
+ FN =  2  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  1 	 (truth == 0) & (prediction >= threshold)
+ TN =  0  /  1 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.667 	 	0.500 	 	0.600 	 	0.000		0.750	 	0.000	 	0.642	0.000
+
+[Execlution number 12 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.08839222
+ROC AUC 		0
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.632 	 0.000 	 	0.167 	 	0.000 	 	0.200		0.000	 	0.500	 	0.088	0.000
+
+[Execlution number 13 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1074258
+ROC AUC 		0.2
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.107	0.200
+
+[Execlution number 14 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1369538
+ROC AUC 		0.4
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	0.137	0.400
+
+[Execlution number 15 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.5379019
+ROC AUC 		0.6666667
+
+
+TOTAL:
+
+ FN =  0  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.707 	 0.857 	 	0.833 	 	1.000 	 	0.667		0.750	 	1.000	 	0.538	0.667
+
+[Execlution number 16 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3068528
+ROC AUC 		0.8
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  4  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.632 	 0.667 	 	0.833 	 	1.000 	 	0.800		0.500	 	1.000	 	0.307	0.800
+
+[Execlution number 17 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  4  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.667 	 	NaN 	 	0.667		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 18 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	1.000	1.000
+
+[Execlution number 19 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.333 	 	NaN 	 	0.333		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 20 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1890698
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.189	0.600
+
+[Execlution number 21 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.333 	 	NaN 	 	0.333		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 22 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3068528
+ROC AUC 		0.8
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	0.307	0.800
+
+[Execlution number 23 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.4506939
+ROC AUC 		0.75
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.707 	 0.800 	 	0.833 	 	1.000 	 	0.750		0.667	 	1.000	 	0.451	0.750
+
+[Execlution number 24 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.08839222
+ROC AUC 		0
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.447 	 0.000 	 	0.333 	 	0.000 	 	0.400		0.000	 	0.667	 	0.088	0.000
+
+[Execlution number 25 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	1.000	1.000
+
+[Execlution number 26 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.500 	 	NaN 	 	0.500		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 27 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	1.000	1.000
+
+[Execlution number 28 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.500 	 	NaN 	 	0.500		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 29 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1369538
+ROC AUC 		0.4
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.137	0.400
+
+[Execlution number 30 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3891395
+ROC AUC 		0.3333333
+
+
+TOTAL:
+
+ FN =  0  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  0  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.667 	 	0.500 	 	1.000 	 	0.000		0.500	 	NaN	 	0.389	0.333
+
+[Execlution number 31 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1168808
+ROC AUC 		0.3
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.000 	 	0.500 	 	0.000 	 	0.600		0.000	 	0.750	 	0.117	0.300
+
+[Execlution number 32 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1890698
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.189	0.600
+
+[Execlution number 33 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6486337
+ROC AUC 		0.5625
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.400 	 	0.500 	 	0.500 	 	0.500		0.333	 	0.667	 	0.649	0.562
+
+[Execlution number 34 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	1.000	1.000
+
+[Execlution number 35 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.707 	 0.800 	 	0.833 	 	1.000 	 	0.750		0.667	 	1.000	 	1.000	1.000
+
+[Execlution number 36 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3068528
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.400 	 	0.500 	 	0.500 	 	0.500		0.333	 	0.667	 	0.307	0.500
+
+[Execlution number 37 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1074258
+ROC AUC 		0.2
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.000 	 	0.500 	 	0.000 	 	0.600		0.000	 	0.750	 	0.107	0.200
+
+[Execlution number 38 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1890698
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	0.189	0.600
+
+[Execlution number 39 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1369538
+ROC AUC 		0.4
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.137	0.400
+
+[Execlution number 40 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.2887833
+ROC AUC 		0.375
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.250 	 0.500 	 	0.667 	 	0.500 	 	0.750		0.500	 	0.750	 	0.289	0.375
+
+[Execlution number 41 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      1.000 	 1.000 	 	1.000 	 	1.000 	 	1.000		1.000	 	1.000	 	1.000	1.000
+
+[Execlution number 42 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3657443
+ROC AUC 		0.625
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.500 	 0.667 	 	0.667 	 	1.000 	 	0.500		0.500	 	1.000	 	0.366	0.625
+
+[Execlution number 43 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	1.000	1.000
+
+[Execlution number 44 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6652847
+ROC AUC 		0.625
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.250 	 0.500 	 	0.667 	 	0.500 	 	0.750		0.500	 	0.750	 	0.665	0.625
+
+[Execlution number 45 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3187111
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.400 	 	0.500 	 	0.500 	 	0.500		0.333	 	0.667	 	0.319	0.500
+
+[Execlution number 46 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.2337616
+ROC AUC 		0.25
+
+
+TOTAL:
+
+ FN =  2  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.707 	 0.000 	 	0.167 	 	0.000 	 	0.250		0.000	 	0.333	 	0.234	0.250
+
+[Execlution number 47 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.5226144
+ROC AUC 		0.25
+
+
+TOTAL:
+
+ FN =  3  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  2 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  2 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.250 	 0.333 	 	0.333 	 	0.250 	 	0.500		0.500	 	0.250	 	0.523	0.250
+
+[Execlution number 48 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.918907
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  1 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  1 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	0.200 	 	1.000		1.000	 	0.200	 	0.919	0.600
+
+[Execlution number 49 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.2419979
+ROC AUC 		0.3125
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.571 	 	0.500 	 	1.000 	 	0.250		0.400	 	1.000	 	0.242	0.312
+
+[Execlution number 50 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1369538
+ROC AUC 		0.4
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.137	0.400
+
+[Execlution number 51 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6353569
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.250 	 0.500 	 	0.667 	 	0.500 	 	0.750		0.500	 	0.750	 	0.635	0.500
+
+[Execlution number 52 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.333 	 	NaN 	 	0.333		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 53 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.2887833
+ROC AUC 		0.375
+
+
+TOTAL:
+
+ FN =  2  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.000 	 	0.500 	 	0.000 	 	0.750		0.000	 	0.600	 	0.289	0.375
+
+[Execlution number 54 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	1.000	1.000
+
+[Execlution number 55 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  4  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.667 	 	NaN 	 	0.667		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 56 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.2038338
+ROC AUC 		0.125
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.250 	 0.333 	 	0.333 	 	0.500 	 	0.250		0.250	 	0.500	 	0.204	0.125
+
+[Execlution number 57 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	1.000	1.000
+
+[Execlution number 58 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	1.000	1.000
+
+[Execlution number 59 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.4284005
+ROC AUC 		0.4444444
+
+
+TOTAL:
+
+ FN =  2  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.333 	 0.333 	 	0.333 	 	0.333 	 	0.333		0.333	 	0.333	 	0.428	0.444
+
+[Execlution number 60 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6652847
+ROC AUC 		0.625
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.250 	 0.333 	 	0.333 	 	0.500 	 	0.250		0.250	 	0.500	 	0.665	0.625
+
+[Execlution number 61 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1074258
+ROC AUC 		0.2
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.333 	 	0.333 	 	1.000 	 	0.200		0.200	 	1.000	 	0.107	0.200
+
+[Execlution number 62 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3068528
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  2  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.500 	 0.000 	 	0.333 	 	0.000 	 	0.500		0.000	 	0.500	 	0.307	0.500
+
+[Execlution number 63 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.7972674
+ROC AUC 		0.875
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.500 	 0.667 	 	0.667 	 	1.000 	 	0.500		0.500	 	1.000	 	0.797	0.875
+
+[Execlution number 64 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6652847
+ROC AUC 		0.625
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.400 	 	0.500 	 	0.500 	 	0.500		0.333	 	0.667	 	0.665	0.625
+
+[Execlution number 65 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.5945349
+ROC AUC 		0.3333333
+
+
+TOTAL:
+
+ FN =  2  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.400 	 	0.500 	 	0.333 	 	0.667		0.500	 	0.500	 	0.595	0.333
+
+[Execlution number 66 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1074258
+ROC AUC 		0.2
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.447 	 0.000 	 	0.333 	 	0.000 	 	0.400		0.000	 	0.667	 	0.107	0.200
+
+[Execlution number 67 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6652847
+ROC AUC 		0.625
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.250 	 0.333 	 	0.333 	 	0.500 	 	0.250		0.250	 	0.500	 	0.665	0.625
+
+[Execlution number 68 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1369538
+ROC AUC 		0.4
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.447 	 0.000 	 	0.333 	 	0.000 	 	0.400		0.000	 	0.667	 	0.137	0.400
+
+[Execlution number 69 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.571 	 	0.500 	 	1.000 	 	0.250		0.400	 	1.000	 	1.000	1.000
+
+[Execlution number 70 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.2298918
+ROC AUC 		0.25
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  0  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.632 	 0.286 	 	0.167 	 	0.500 	 	0.000		0.200	 	0.000	 	0.230	0.250
+
+[Execlution number 71 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.09453489
+ROC AUC 		0.1
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.000 	 	0.500 	 	0.000 	 	0.600		0.000	 	0.750	 	0.095	0.100
+
+[Execlution number 72 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3068528
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.400 	 	0.500 	 	0.500 	 	0.500		0.333	 	0.667	 	0.307	0.500
+
+[Execlution number 73 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.500 	 	NaN 	 	0.500		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 74 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3068528
+ROC AUC 		0.8
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	0.307	0.800
+
+[Execlution number 75 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1890698
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	0.189	0.600
+
+[Execlution number 76 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.707 	 0.800 	 	0.833 	 	1.000 	 	0.750		0.667	 	1.000	 	1.000	1.000
+
+[Execlution number 77 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1369538
+ROC AUC 		0.4
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  4  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.200 	 0.000 	 	0.667 	 	0.000 	 	0.800		0.000	 	0.800	 	0.137	0.400
+
+[Execlution number 78 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.500 	 	NaN 	 	0.500		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 79 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6981783
+ROC AUC 		0.6111111
+
+
+TOTAL:
+
+ FN =  1  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.571 	 	0.500 	 	0.667 	 	0.333		0.500	 	0.500	 	0.698	0.611
+
+[Execlution number 80 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  0  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.286 	 	0.167 	 	1.000 	 	0.000		0.167	 	NaN	 	1.000	1.000
+
+[Execlution number 81 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.3068528
+ROC AUC 		0.8
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  4  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.632 	 0.667 	 	0.833 	 	1.000 	 	0.800		0.500	 	1.000	 	0.307	0.800
+
+[Execlution number 82 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.500 	 	NaN 	 	0.500		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 83 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.500 	 0.667 	 	0.667 	 	1.000 	 	0.500		0.500	 	1.000	 	1.000	1.000
+
+[Execlution number 84 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.500 	 	NaN 	 	0.500		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 85 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  4  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.632 	 0.667 	 	0.833 	 	1.000 	 	0.800		0.500	 	1.000	 	1.000	1.000
+
+[Execlution number 86 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6353569
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  4  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.632 	 0.667 	 	0.833 	 	0.500 	 	1.000		1.000	 	0.800	 	0.635	0.500
+
+[Execlution number 87 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.2887833
+ROC AUC 		0.375
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.250 	 0.333 	 	0.333 	 	0.500 	 	0.250		0.250	 	0.500	 	0.289	0.375
+
+[Execlution number 88 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.5976405
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  1  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  2 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  2 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.250 	 0.750 	 	0.667 	 	0.750 	 	0.500		0.750	 	0.500	 	0.598	0.500
+
+[Execlution number 89 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6652847
+ROC AUC 		0.625
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.571 	 	0.500 	 	1.000 	 	0.250		0.400	 	1.000	 	0.665	0.625
+
+[Execlution number 90 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  4 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  4 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.707 	 0.800 	 	0.833 	 	1.000 	 	0.750		0.667	 	1.000	 	1.000	1.000
+
+[Execlution number 91 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1890698
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	1.000 	 	0.600		0.333	 	1.000	 	0.189	0.600
+
+[Execlution number 92 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.904106
+ROC AUC 		0.8888889
+
+
+TOTAL:
+
+ FN =  0  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  0  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.667 	 	0.500 	 	1.000 	 	0.000		0.500	 	NaN	 	0.904	0.889
+
+[Execlution number 93 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.4284005
+ROC AUC 		0.4444444
+
+
+TOTAL:
+
+ FN =  0  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  3 	 (truth == 0) & (prediction >= threshold)
+ TN =  1  /  3 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.750 	 	0.667 	 	1.000 	 	0.333		0.600	 	1.000	 	0.428	0.444
+
+[Execlution number 94 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	NaN
+ROC AUC 		NaN
+
+
+TOTAL:
+
+ FN =  0  /  0 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  0 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  6 	 (truth == 0) & (prediction >= threshold)
+ TN =  5  /  6 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.833 	 	NaN 	 	0.833		0.000	 	1.000	 	NaN	NaN
+
+[Execlution number 95 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1369538
+ROC AUC 		0.4
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.000 	 	0.500 	 	0.000 	 	0.600		0.000	 	0.750	 	0.137	0.400
+
+[Execlution number 96 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  2  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.500 	 	1.000 	 	0.400		0.250	 	1.000	 	1.000	1.000
+
+[Execlution number 97 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1074258
+ROC AUC 		0.2
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.000 	 	0.500 	 	0.000 	 	0.600		0.000	 	0.750	 	0.107	0.200
+
+[Execlution number 98 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  4  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.632 	 0.667 	 	0.833 	 	1.000 	 	0.800		0.500	 	1.000	 	1.000	1.000
+
+[Execlution number 99 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.6534264
+ROC AUC 		0.25
+
+
+TOTAL:
+
+ FN =  1  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  2 	 (truth == 0) & (prediction >= threshold)
+ TN =  0  /  2 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.667 	 	0.500 	 	0.750 	 	0.000		0.600	 	0.000	 	0.653	0.250
+
+[Execlution number 100 out of 100]
+[Randomizing the rows]
+target_label = TARGET_type_0ACS_1stroke
+[Dataset size]
+number of data instances (rows) = 30 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 22]
+73.333%
+[class: 1  #elements = 8]
+26.667%
+
+[training set = 80%]
+[test set = 20%]
+[Creating the training set and test set for the values]
+[training set dimensions:  24  patients]
+[test set dimensions:  6  patients]
+[Creating the training set and test set for the labels "1"-"0"]
+[Dataset size]
+number of data instances (rows) = 24 
+number of features (columns) = 12 
+
+[Imbalance of this dataset]
+[class: 0  #elements = 11]
+45.833%
+[class: 1  #elements = 13]
+54.167%
+
+
+[Training the random forest classifier on the training set]
+
+[Applying the trained random forest classifier on the test set]
+
+PR AUC (integral) 	0.1074258
+ROC AUC 		0.2
+
+
+TOTAL:
+
+ FN =  1  /  1 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  1 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  5 	 (truth == 0) & (prediction >= threshold)
+ TN =  3  /  5 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.000 	 	0.500 	 	0.000 	 	0.600		0.000	 	0.750	 	0.107	0.200
+
+
+
+
+=== final results ===
+Number of executions = 100
+                 MCC F1_score accuracy TP_rate TN_rate     PPV    NPV PR_AUC
+nbr.val      100.000  100.000  100.000  87.000 100.000 100.000 95.000 87.000
+nbr.null      24.000   28.000    1.000  15.000   8.000  28.000  3.000  0.000
+nbr.na         0.000    0.000    0.000  13.000   0.000   0.000  5.000 13.000
+min           -0.707    0.000    0.000   0.000   0.000   0.000  0.000  0.088
+max            1.000    1.000    1.000   1.000   1.000   1.000  1.000  1.000
+range          1.707    1.000    1.000   1.000   1.000   1.000  1.000  0.912
+sum           12.089   36.414   51.500  60.883  45.700  29.433 78.400 42.731
+median         0.200    0.400    0.500   1.000   0.500   0.250  1.000  0.389
+mean           0.121    0.364    0.515   0.700   0.457   0.294  0.825  0.491
+SE.mean        0.036    0.027    0.019   0.042   0.024   0.025  0.027  0.036
+CI.mean.0.95   0.071    0.053    0.037   0.083   0.048   0.050  0.053  0.072
+var            0.130    0.072    0.035   0.153   0.058   0.063  0.068  0.114
+std.dev        0.360    0.269    0.188   0.391   0.241   0.250  0.261  0.338
+coef.var       2.979    0.738    0.365   0.559   0.528   0.850  0.316  0.689
+             ROC_AUC
+nbr.val       87.000
+nbr.null       3.000
+nbr.na        13.000
+min            0.000
+max            1.000
+range          1.000
+sum           50.372
+median         0.600
+mean           0.579
+SE.mean        0.032
+CI.mean.0.95   0.063
+var            0.088
+std.dev        0.296
+coef.var       0.512
+
+
+=== === === ===
+	    MCC 	F1_score  accuracy TP_rate TN_rate   PPV   NPV   PR_AUC  ROC_AUC
+mean +0.121    0.364       0.515     0.700  0.457    0.294 0.825   0.491      0.579
+
+
+=== === === ===
+Total execution time: 3.932845 seconds
+0 days, 00 hours, 00 minutes, 3.93 seconds

@@ -1,0 +1,3055 @@
+Loading required package: clusterSim
+Loading required package: cluster
+Loading required package: MASS
+Loading required package: PRROC
+Loading requscript_dir: .
+Read data from file /home/davide/projects/arterial_events_and_IBD/data/journal.pone.0201991.s001_EDITED_binary_event.csv
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6581296
+ROC AUC 		0.7012987
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.443 	 0.444 	 	0.722 	 	0.286 	 	1.000		1.000	 	0.688	 	0.658	0.701
+
+[Execlution number 2 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6603497
+ROC AUC 		0.875
+
+
+TOTAL:
+
+ FN =  0  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.598 	 0.667 	 	0.778 	 	1.000 	 	0.714		0.500	 	1.000	 	0.660	0.875
+
+[Execlution number 3 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8031493
+ROC AUC 		0.7839506
+
+
+TOTAL:
+
+ FN =  5  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  6  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.114 	 0.500 	 	0.556 	 	0.444 	 	0.667		0.571	 	0.545	 	0.803	0.784
+
+[Execlution number 4 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5866256
+ROC AUC 		0.6319444
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.333 	 	0.556 	 	0.333 	 	0.667		0.333	 	0.667	 	0.587	0.632
+
+[Execlution number 5 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4463174
+ROC AUC 		0.5909091
+
+
+TOTAL:
+
+ FN =  6  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.081 	 0.222 	 	0.611 	 	0.143 	 	0.909		0.500	 	0.625	 	0.446	0.591
+
+[Execlution number 6 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4634173
+ROC AUC 		0.5486111
+
+
+TOTAL:
+
+ FN =  5  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.343 	 0.286 	 	0.722 	 	0.167 	 	1.000		1.000	 	0.706	 	0.463	0.549
+
+[Execlution number 7 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6701502
+ROC AUC 		0.8
+
+
+TOTAL:
+
+ FN =  3  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.388 	 0.500 	 	0.778 	 	0.400 	 	0.923		0.667	 	0.800	 	0.670	0.800
+
+[Execlution number 8 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4993819
+ROC AUC 		0.5972222
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.189 	 0.400 	 	0.667 	 	0.333 	 	0.833		0.500	 	0.714	 	0.499	0.597
+
+[Execlution number 9 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.9549851
+ROC AUC 		0.9444444
+
+
+TOTAL:
+
+ FN =  6  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	0.333 	 	1.000		1.000	 	0.600	 	0.955	0.944
+
+[Execlution number 10 out of 10] we silence the smoker feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8006112
+ROC AUC 		0.7469136
+
+
+TOTAL:
+
+ FN =  5  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.535 	 0.615 	 	0.722 	 	0.444 	 	1.000		1.000	 	0.643	 	0.801	0.747
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: smoker
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      1.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min           0.000    0.222    0.556   0.143   0.667  0.333  0.545  0.446
+max           0.598    0.667    0.778   1.000   1.000  1.000  1.000  0.955
+range         0.598    0.444    0.222   0.857   0.333  0.667  0.455  0.509
+sum           3.137    4.468    6.778   3.884   8.713  7.071  6.988  6.543
+median        0.366    0.472    0.694   0.333   0.916  0.619  0.677  0.659
+mean          0.314    0.447    0.678   0.388   0.871  0.707  0.699  0.654
+SE.mean       0.065    0.044    0.026   0.075   0.045  0.084  0.040  0.052
+CI.mean.0.95  0.147    0.100    0.059   0.170   0.101  0.190  0.091  0.117
+var           0.042    0.020    0.007   0.057   0.020  0.070  0.016  0.027
+std.dev       0.205    0.140    0.082   0.238   0.142  0.265  0.127  0.164
+coef.var      0.654    0.314    0.121   0.613   0.162  0.375  0.181  0.251
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.549
+max            0.944
+range          0.396
+sum            7.220
+median         0.724
+mean           0.722
+SE.mean        0.041
+CI.mean.0.95   0.094
+var            0.017
+std.dev        0.131
+coef.var       0.182
+
+
+=== === === ===
+[final] feature removed: smoker
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.314    0.447    0.678   0.388   0.871 0.707 0.699  0.654   0.722
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6109686
+ROC AUC 		0.8181818
+
+
+TOTAL:
+
+ FN =  7  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.000 	 	0.611 	 	0.000 	 	1.000		NaN	 	0.611	 	0.611	0.818
+
+[Execlution number 2 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.1081466
+ROC AUC 		0.2666667
+
+
+TOTAL:
+
+ FN =  3  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  15 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  15 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.239 	 0.000 	 	0.611 	 	0.000 	 	0.733		0.000	 	0.786	 	0.108	0.267
+
+[Execlution number 3 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3685008
+ROC AUC 		0.4805195
+
+
+TOTAL:
+
+ FN =  6  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.081 	 0.222 	 	0.611 	 	0.143 	 	0.909		0.500	 	0.625	 	0.369	0.481
+
+[Execlution number 4 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5429222
+ROC AUC 		0.6041667
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.189 	 0.400 	 	0.667 	 	0.333 	 	0.833		0.500	 	0.714	 	0.543	0.604
+
+[Execlution number 5 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4569761
+ROC AUC 		0.6111111
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.161 	 0.462 	 	0.611 	 	0.500 	 	0.667		0.429	 	0.727	 	0.457	0.611
+
+[Execlution number 6 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6986288
+ROC AUC 		0.7012987
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.255 	 0.400 	 	0.667 	 	0.286 	 	0.909		0.667	 	0.667	 	0.699	0.701
+
+[Execlution number 7 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8405824
+ROC AUC 		0.78125
+
+
+TOTAL:
+
+ FN =  6  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.395 	 0.400 	 	0.667 	 	0.250 	 	1.000		1.000	 	0.625	 	0.841	0.781
+
+[Execlution number 8 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4904259
+ROC AUC 		0.6230769
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  13  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.391 	 0.333 	 	0.778 	 	0.200 	 	1.000		1.000	 	0.765	 	0.490	0.623
+
+[Execlution number 9 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3466701
+ROC AUC 		0.6607143
+
+
+TOTAL:
+
+ FN =  1  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.396 	 0.545 	 	0.722 	 	0.750 	 	0.714		0.429	 	0.909	 	0.347	0.661
+
+[Execlution number 10 out of 10] we silence the arterial_hypertension feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.2964642
+ROC AUC 		0.53125
+
+
+TOTAL:
+
+ FN =  1  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  16 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  16 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.081 	 0.222 	 	0.611 	 	0.500 	 	0.625		0.143	 	0.909	 	0.296	0.531
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: arterial_hypertension
+                MCC F1_score accuracy TP_rate TN_rate   PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 9.000 10.000 10.000
+nbr.null      1.000    2.000    0.000   2.000   0.000 1.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000 1.000  0.000  0.000
+min          -0.239    0.000    0.611   0.000   0.625 0.000  0.611  0.108
+max           0.396    0.545    0.778   0.750   1.000 1.000  0.909  0.841
+range         0.635    0.545    0.167   0.750   0.375 1.000  0.298  0.732
+sum           1.709    2.985    6.556   2.962   8.391 4.667  7.338  4.760
+median        0.175    0.367    0.639   0.268   0.871 0.500  0.721  0.474
+mean          0.171    0.298    0.656   0.296   0.839 0.519  0.734  0.476
+SE.mean       0.064    0.059    0.018   0.075   0.046 0.113  0.035  0.067
+CI.mean.0.95  0.145    0.133    0.041   0.169   0.104 0.260  0.079  0.151
+var           0.041    0.034    0.003   0.056   0.021 0.114  0.012  0.045
+std.dev       0.203    0.185    0.057   0.236   0.145 0.338  0.110  0.211
+coef.var      1.187    0.621    0.088   0.796   0.173 0.651  0.150  0.444
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.267
+max            0.818
+range          0.552
+sum            6.078
+median         0.617
+mean           0.608
+SE.mean        0.050
+CI.mean.0.95   0.113
+var            0.025
+std.dev        0.158
+coef.var       0.260
+
+
+=== === === ===
+[final] feature removed: arterial_hypertension
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.171    0.298    0.656   0.296   0.839 0.519 0.734  0.476   0.608
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.597441
+ROC AUC 		0.7402597
+
+
+TOTAL:
+
+ FN =  3  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.523 	 0.667 	 	0.778 	 	0.571 	 	0.909		0.800	 	0.769	 	0.597	0.740
+
+[Execlution number 2 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6540607
+ROC AUC 		0.7532468
+
+
+TOTAL:
+
+ FN =  3  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.403 	 0.615 	 	0.722 	 	0.571 	 	0.818		0.667	 	0.750	 	0.654	0.753
+
+[Execlution number 3 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5684284
+ROC AUC 		0.8116883
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.122 	 0.364 	 	0.611 	 	0.286 	 	0.818		0.500	 	0.643	 	0.568	0.812
+
+[Execlution number 4 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5762023
+ROC AUC 		0.7467532
+
+
+TOTAL:
+
+ FN =  4  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.269 	 0.500 	 	0.667 	 	0.429 	 	0.818		0.600	 	0.692	 	0.576	0.747
+
+[Execlution number 5 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7356531
+ROC AUC 		0.7777778
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.500 	 0.500 	 	0.778 	 	0.333 	 	1.000		1.000	 	0.750	 	0.736	0.778
+
+[Execlution number 6 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5135283
+ROC AUC 		0.6692308
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  13  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.391 	 0.333 	 	0.778 	 	0.200 	 	1.000		1.000	 	0.765	 	0.514	0.669
+
+[Execlution number 7 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5884938
+ROC AUC 		0.5972222
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.444 	 	0.722 	 	0.333 	 	0.917		0.667	 	0.733	 	0.588	0.597
+
+[Execlution number 8 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3857931
+ROC AUC 		0.5519481
+
+
+TOTAL:
+
+ FN =  7  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.282 	 0.000 	 	0.500 	 	0.000 	 	0.818		0.000	 	0.562	 	0.386	0.552
+
+[Execlution number 9 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4767108
+ROC AUC 		0.6692308
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.175 	 0.286 	 	0.722 	 	0.200 	 	0.923		0.500	 	0.750	 	0.477	0.669
+
+[Execlution number 10 out of 10] we silence the diabetes feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.879693
+ROC AUC 		0.8765432
+
+
+TOTAL:
+
+ FN =  5  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.535 	 0.615 	 	0.722 	 	0.444 	 	1.000		1.000	 	0.643	 	0.880	0.877
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: diabetes
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      0.000    1.000    0.000   1.000   0.000  1.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min          -0.282    0.000    0.500   0.000   0.818  0.000  0.562  0.386
+max           0.535    0.667    0.778   0.571   1.000  1.000  0.769  0.880
+range         0.817    0.667    0.278   0.571   0.182  1.000  0.207  0.494
+sum           2.952    4.325    7.000   3.368   9.022  6.733  7.058  5.976
+median        0.354    0.472    0.722   0.333   0.913  0.667  0.742  0.582
+mean          0.295    0.432    0.700   0.337   0.902  0.673  0.706  0.598
+SE.mean       0.078    0.063    0.028   0.056   0.025  0.097  0.022  0.043
+CI.mean.0.95  0.177    0.142    0.063   0.127   0.057  0.221  0.049  0.098
+var           0.061    0.039    0.008   0.032   0.006  0.095  0.005  0.019
+std.dev       0.247    0.198    0.088   0.178   0.080  0.308  0.069  0.137
+coef.var      0.838    0.459    0.125   0.527   0.089  0.458  0.098  0.230
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.552
+max            0.877
+range          0.325
+sum            7.194
+median         0.744
+mean           0.719
+SE.mean        0.031
+CI.mean.0.95   0.070
+var            0.010
+std.dev        0.098
+coef.var       0.137
+
+
+=== === === ===
+[final] feature removed: diabetes
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.295    0.432    0.700   0.337   0.902 0.673 0.706  0.598   0.719
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3470849
+ROC AUC 		0.5555556
+
+
+TOTAL:
+
+ FN =  6  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.316 	 0.000 	 	0.500 	 	0.000 	 	0.750		0.000	 	0.600	 	0.347	0.556
+
+[Execlution number 2 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4076602
+ROC AUC 		0.7307692
+
+
+TOTAL:
+
+ FN =  3  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.265 	 0.444 	 	0.722 	 	0.400 	 	0.846		0.500	 	0.786	 	0.408	0.731
+
+[Execlution number 3 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4935681
+ROC AUC 		0.6923077
+
+
+TOTAL:
+
+ FN =  2  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.564 	 0.667 	 	0.833 	 	0.600 	 	0.923		0.750	 	0.857	 	0.494	0.692
+
+[Execlution number 4 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6853293
+ROC AUC 		0.7467532
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.443 	 0.444 	 	0.722 	 	0.286 	 	1.000		1.000	 	0.688	 	0.685	0.747
+
+[Execlution number 5 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3465003
+ROC AUC 		0.7589286
+
+
+TOTAL:
+
+ FN =  4  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  13  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.130 	 0.000 	 	0.722 	 	0.000 	 	0.929		0.000	 	0.765	 	0.347	0.759
+
+[Execlution number 6 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.2562406
+ROC AUC 		0.4846154
+
+
+TOTAL:
+
+ FN =  5  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.150 	 0.000 	 	0.667 	 	0.000 	 	0.923		0.000	 	0.706	 	0.256	0.485
+
+[Execlution number 7 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8417106
+ROC AUC 		0.875
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.632 	 0.667 	 	0.833 	 	0.500 	 	1.000		1.000	 	0.800	 	0.842	0.875
+
+[Execlution number 8 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5966283
+ROC AUC 		0.8384615
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.175 	 0.286 	 	0.722 	 	0.200 	 	0.923		0.500	 	0.750	 	0.597	0.838
+
+[Execlution number 9 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4516207
+ROC AUC 		0.6944444
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.444 	 	0.722 	 	0.333 	 	0.917		0.667	 	0.733	 	0.452	0.694
+
+[Execlution number 10 out of 10] we silence the dyslipidemia feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8705918
+ROC AUC 		0.9166667
+
+
+TOTAL:
+
+ FN =  1  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.645 	 0.769 	 	0.833 	 	0.833 	 	0.833		0.714	 	0.909	 	0.871	0.917
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: dyslipidemia
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      0.000    3.000    0.000   3.000   0.000  3.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min          -0.316    0.000    0.500   0.000   0.750  0.000  0.600  0.256
+max           0.645    0.769    0.833   0.833   1.000  1.000  0.909  0.871
+range         0.961    0.769    0.333   0.833   0.250  1.000  0.309  0.614
+sum           2.444    3.722    7.278   3.152   9.044  5.131  7.593  5.297
+median        0.291    0.444    0.722   0.310   0.923  0.583  0.757  0.473
+mean          0.244    0.372    0.728   0.315   0.904  0.513  0.759  0.530
+SE.mean       0.109    0.092    0.031   0.088   0.024  0.124  0.028  0.067
+CI.mean.0.95  0.247    0.209    0.071   0.200   0.055  0.281  0.062  0.152
+var           0.119    0.086    0.010   0.078   0.006  0.154  0.008  0.045
+std.dev       0.345    0.292    0.100   0.280   0.076  0.392  0.087  0.212
+coef.var      1.412    0.786    0.137   0.887   0.084  0.764  0.115  0.401
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.485
+max            0.917
+range          0.432
+sum            7.294
+median         0.739
+mean           0.729
+SE.mean        0.042
+CI.mean.0.95   0.096
+var            0.018
+std.dev        0.134
+coef.var       0.184
+
+
+=== === === ===
+[final] feature removed: dyslipidemia
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.244    0.372    0.728   0.315   0.904 0.513 0.759  0.530   0.729
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5660873
+ROC AUC 		0.59375
+
+
+TOTAL:
+
+ FN =  6  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.200 	 0.364 	 	0.611 	 	0.250 	 	0.900		0.667	 	0.600	 	0.566	0.594
+
+[Execlution number 2 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7271613
+ROC AUC 		0.6688312
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.443 	 0.444 	 	0.722 	 	0.286 	 	1.000		1.000	 	0.688	 	0.727	0.669
+
+[Execlution number 3 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8768829
+ROC AUC 		0.9461538
+
+
+TOTAL:
+
+ FN =  1  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.614 	 0.727 	 	0.833 	 	0.800 	 	0.846		0.667	 	0.917	 	0.877	0.946
+
+[Execlution number 4 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3331894
+ROC AUC 		0.5803571
+
+
+TOTAL:
+
+ FN =  3  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  13  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.236 	 0.333 	 	0.778 	 	0.250 	 	0.929		0.500	 	0.812	 	0.333	0.580
+
+[Execlution number 5 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5496737
+ROC AUC 		0.7361111
+
+
+TOTAL:
+
+ FN =  1  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.471 	 0.667 	 	0.722 	 	0.833 	 	0.667		0.556	 	0.889	 	0.550	0.736
+
+[Execlution number 6 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4917896
+ROC AUC 		0.6944444
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.189 	 0.400 	 	0.667 	 	0.333 	 	0.833		0.500	 	0.714	 	0.492	0.694
+
+[Execlution number 7 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4223845
+ROC AUC 		0.7692308
+
+
+TOTAL:
+
+ FN =  5  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.150 	 0.000 	 	0.667 	 	0.000 	 	0.923		0.000	 	0.706	 	0.422	0.769
+
+[Execlution number 8 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7422097
+ROC AUC 		0.79375
+
+
+TOTAL:
+
+ FN =  6  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.395 	 0.400 	 	0.667 	 	0.250 	 	1.000		1.000	 	0.625	 	0.742	0.794
+
+[Execlution number 9 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6250591
+ROC AUC 		0.8461538
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  13  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.391 	 0.333 	 	0.778 	 	0.200 	 	1.000		1.000	 	0.765	 	0.625	0.846
+
+[Execlution number 10 out of 10] we silence the CTC_1_0to20mgperday_2_over20mg feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7652185
+ROC AUC 		0.7792208
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.443 	 0.444 	 	0.722 	 	0.286 	 	1.000		1.000	 	0.688	 	0.765	0.779
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: CTC_1_0to20mgperday_2_over20mg
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      0.000    1.000    0.000   1.000   0.000  1.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min          -0.150    0.000    0.611   0.000   0.667  0.000  0.600  0.333
+max           0.614    0.727    0.833   0.833   1.000  1.000  0.917  0.877
+range         0.764    0.727    0.222   0.833   0.333  1.000  0.317  0.544
+sum           3.233    4.113    7.167   3.488   9.098  6.889  7.403  6.100
+median        0.393    0.400    0.722   0.268   0.926  0.667  0.710  0.596
+mean          0.323    0.411    0.717   0.349   0.910  0.689  0.740  0.610
+SE.mean       0.068    0.062    0.021   0.083   0.034  0.103  0.033  0.054
+CI.mean.0.95  0.153    0.141    0.048   0.188   0.076  0.233  0.075  0.121
+var           0.046    0.039    0.004   0.069   0.011  0.106  0.011  0.029
+std.dev       0.213    0.198    0.067   0.262   0.107  0.325  0.105  0.169
+coef.var      0.660    0.480    0.093   0.752   0.117  0.472  0.142  0.278
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.580
+max            0.946
+range          0.366
+sum            7.408
+median         0.753
+mean           0.741
+SE.mean        0.035
+CI.mean.0.95   0.080
+var            0.013
+std.dev        0.112
+coef.var       0.151
+
+
+=== === === ===
+[final] feature removed: CTC_1_0to20mgperday_2_over20mg
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.323    0.411    0.717   0.349   0.910 0.689 0.740  0.610   0.741
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5394856
+ROC AUC 		0.6493506
+
+
+TOTAL:
+
+ FN =  6  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.051 	 0.200 	 	0.556 	 	0.143 	 	0.818		0.333	 	0.600	 	0.539	0.649
+
+[Execlution number 2 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6580708
+ROC AUC 		0.8660714
+
+
+TOTAL:
+
+ FN =  1  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.396 	 0.545 	 	0.722 	 	0.750 	 	0.714		0.429	 	0.909	 	0.658	0.866
+
+[Execlution number 3 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5397371
+ROC AUC 		0.64375
+
+
+TOTAL:
+
+ FN =  4  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.571 	 	0.667 	 	0.500 	 	0.800		0.667	 	0.667	 	0.540	0.644
+
+[Execlution number 4 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	1
+ROC AUC 		1
+
+
+TOTAL:
+
+ FN =  0  /  2 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  2 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  16 	 (truth == 0) & (prediction >= threshold)
+ TN =  14  /  16 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.661 	 0.667 	 	0.889 	 	1.000 	 	0.875		0.500	 	1.000	 	1.000	1.000
+
+[Execlution number 5 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8178453
+ROC AUC 		0.8055556
+
+
+TOTAL:
+
+ FN =  2  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.756 	 0.800 	 	0.889 	 	0.667 	 	1.000		1.000	 	0.857	 	0.818	0.806
+
+[Execlution number 6 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6093499
+ROC AUC 		0.8153846
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.055 	 0.250 	 	0.667 	 	0.200 	 	0.846		0.333	 	0.733	 	0.609	0.815
+
+[Execlution number 7 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6087524
+ROC AUC 		0.7230769
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.175 	 0.286 	 	0.722 	 	0.200 	 	0.923		0.500	 	0.750	 	0.609	0.723
+
+[Execlution number 8 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3152176
+ROC AUC 		0.5277778
+
+
+TOTAL:
+
+ FN =  5  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.222 	 	0.611 	 	0.167 	 	0.833		0.333	 	0.667	 	0.315	0.528
+
+[Execlution number 9 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8272229
+ROC AUC 		0.9375
+
+
+TOTAL:
+
+ FN =  2  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  14  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.661 	 0.667 	 	0.889 	 	0.500 	 	1.000		1.000	 	0.875	 	0.827	0.938
+
+[Execlution number 10 out of 10] we silence the immunossupressants feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5804796
+ROC AUC 		0.7077922
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.014 	 0.333 	 	0.556 	 	0.286 	 	0.727		0.400	 	0.615	 	0.580	0.708
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: immunossupressants
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      1.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min          -0.051    0.200    0.556   0.143   0.714  0.333  0.600  0.315
+max           0.756    0.800    0.889   1.000   1.000  1.000  1.000  1.000
+range         0.807    0.600    0.333   0.857   0.286  0.667  0.400  0.685
+sum           2.985    4.541    7.167   4.412   8.537  5.495  7.673  6.496
+median        0.246    0.439    0.694   0.393   0.840  0.464  0.742  0.609
+mean          0.299    0.454    0.717   0.441   0.854  0.550  0.767  0.650
+SE.mean       0.097    0.070    0.042   0.093   0.031  0.082  0.043  0.060
+CI.mean.0.95  0.220    0.157    0.095   0.209   0.071  0.185  0.097  0.136
+var           0.094    0.048    0.017   0.086   0.010  0.067  0.019  0.036
+std.dev       0.307    0.220    0.132   0.293   0.099  0.259  0.136  0.191
+coef.var      1.029    0.484    0.184   0.663   0.116  0.471  0.177  0.293
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.528
+max            1.000
+range          0.472
+sum            7.676
+median         0.764
+mean           0.768
+SE.mean        0.046
+CI.mean.0.95   0.104
+var            0.021
+std.dev        0.145
+coef.var       0.189
+
+
+=== === === ===
+[final] feature removed: immunossupressants
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.299    0.454    0.717   0.441   0.854 0.550 0.767  0.650   0.768
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7710063
+ROC AUC 		0.8333333
+
+
+TOTAL:
+
+ FN =  2  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.403 	 0.615 	 	0.722 	 	0.667 	 	0.750		0.571	 	0.818	 	0.771	0.833
+
+[Execlution number 2 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3966733
+ROC AUC 		0.7538462
+
+
+TOTAL:
+
+ FN =  5  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.219 	 0.000 	 	0.611 	 	0.000 	 	0.846		0.000	 	0.688	 	0.397	0.754
+
+[Execlution number 3 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3983635
+ROC AUC 		0.8222222
+
+
+TOTAL:
+
+ FN =  2  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  15 	 (truth == 0) & (prediction >= threshold)
+ TN =  14  /  15 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.400 	 	0.833 	 	0.333 	 	0.933		0.500	 	0.875	 	0.398	0.822
+
+[Execlution number 4 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7027461
+ROC AUC 		0.7467532
+
+
+TOTAL:
+
+ FN =  4  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.396 	 0.545 	 	0.722 	 	0.429 	 	0.909		0.750	 	0.714	 	0.703	0.747
+
+[Execlution number 5 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7247491
+ROC AUC 		0.5925926
+
+
+TOTAL:
+
+ FN =  6  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.447 	 0.500 	 	0.667 	 	0.333 	 	1.000		1.000	 	0.600	 	0.725	0.593
+
+[Execlution number 6 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6050591
+ROC AUC 		0.5625
+
+
+TOTAL:
+
+ FN =  5  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  6  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.025 	 0.400 	 	0.500 	 	0.375 	 	0.600		0.429	 	0.545	 	0.605	0.562
+
+[Execlution number 7 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3819798
+ROC AUC 		0.7321429
+
+
+TOTAL:
+
+ FN =  2  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  13  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.478 	 0.571 	 	0.833 	 	0.500 	 	0.929		0.667	 	0.867	 	0.382	0.732
+
+[Execlution number 8 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6873054
+ROC AUC 		0.7291667
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.472 	 0.600 	 	0.778 	 	0.500 	 	0.917		0.750	 	0.786	 	0.687	0.729
+
+[Execlution number 9 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5402319
+ROC AUC 		0.4545455
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.255 	 0.400 	 	0.667 	 	0.286 	 	0.909		0.667	 	0.667	 	0.540	0.455
+
+[Execlution number 10 out of 10] we silence the TNFi feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6904907
+ROC AUC 		0.8831169
+
+
+TOTAL:
+
+ FN =  6  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.081 	 0.222 	 	0.611 	 	0.143 	 	0.909		0.500	 	0.625	 	0.690	0.883
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: TNFi
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      0.000    1.000    0.000   1.000   0.000  1.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min          -0.219    0.000    0.500   0.000   0.600  0.000  0.545  0.382
+max           0.478    0.615    0.833   0.667   1.000  1.000  0.875  0.771
+range         0.697    0.615    0.333   0.667   0.400  1.000  0.330  0.389
+sum           2.604    4.254    6.944   3.565   8.702  5.833  7.184  5.899
+median        0.356    0.450    0.694   0.354   0.909  0.619  0.701  0.646
+mean          0.260    0.425    0.694   0.357   0.870  0.583  0.718  0.590
+SE.mean       0.076    0.061    0.033   0.060   0.036  0.083  0.036  0.048
+CI.mean.0.95  0.171    0.137    0.076   0.135   0.082  0.188  0.082  0.108
+var           0.057    0.037    0.011   0.036   0.013  0.069  0.013  0.023
+std.dev       0.239    0.192    0.106   0.189   0.115  0.263  0.114  0.150
+coef.var      0.917    0.451    0.152   0.530   0.132  0.450  0.159  0.255
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.455
+max            0.883
+range          0.429
+sum            7.110
+median         0.739
+mean           0.711
+SE.mean        0.043
+CI.mean.0.95   0.096
+var            0.018
+std.dev        0.134
+coef.var       0.189
+
+
+=== === === ===
+[final] feature removed: TNFi
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.260    0.425    0.694   0.357   0.870 0.583 0.718  0.590   0.711
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.2400118
+ROC AUC 		0.5625
+
+
+TOTAL:
+
+ FN =  2  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.265 	 0.444 	 	0.722 	 	0.500 	 	0.786		0.400	 	0.846	 	0.240	0.562
+
+[Execlution number 2 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.2545481
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  2  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.194 	 0.462 	 	0.611 	 	0.600 	 	0.615		0.375	 	0.800	 	0.255	0.500
+
+[Execlution number 3 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7490364
+ROC AUC 		0.78125
+
+
+TOTAL:
+
+ FN =  7  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.271 	 0.222 	 	0.611 	 	0.125 	 	1.000		1.000	 	0.588	 	0.749	0.781
+
+[Execlution number 4 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5145524
+ROC AUC 		0.5185185
+
+
+TOTAL:
+
+ FN =  7  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  7  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.308 	 	0.500 	 	0.222 	 	0.778		0.500	 	0.500	 	0.515	0.519
+
+[Execlution number 5 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8787816
+ROC AUC 		0.845679
+
+
+TOTAL:
+
+ FN =  4  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.620 	 0.714 	 	0.778 	 	0.556 	 	1.000		1.000	 	0.692	 	0.879	0.846
+
+[Execlution number 6 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6001673
+ROC AUC 		0.6769231
+
+
+TOTAL:
+
+ FN =  2  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.446 	 0.600 	 	0.778 	 	0.600 	 	0.846		0.600	 	0.846	 	0.600	0.677
+
+[Execlution number 7 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.2673412
+ROC AUC 		0.5
+
+
+TOTAL:
+
+ FN =  2  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  15 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  15 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.000 	 0.222 	 	0.611 	 	0.333 	 	0.667		0.167	 	0.833	 	0.267	0.500
+
+[Execlution number 8 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3583305
+ROC AUC 		0.5416667
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.250 	 0.500 	 	0.667 	 	0.500 	 	0.750		0.500	 	0.750	 	0.358	0.542
+
+[Execlution number 9 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6970212
+ROC AUC 		0.6753247
+
+
+TOTAL:
+
+ FN =  4  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.396 	 0.545 	 	0.722 	 	0.429 	 	0.909		0.750	 	0.714	 	0.697	0.675
+
+[Execlution number 10 out of 10] we silence the meanCRP_over_5_in1y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6679531
+ROC AUC 		0.691358
+
+
+TOTAL:
+
+ FN =  5  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.372 	 0.571 	 	0.667 	 	0.444 	 	0.889		0.800	 	0.615	 	0.668	0.691
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: meanCRP_over_5_in1y
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      2.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min           0.000    0.222    0.500   0.125   0.615  0.167  0.500  0.240
+max           0.620    0.714    0.778   0.600   1.000  1.000  0.846  0.879
+range         0.620    0.492    0.278   0.475   0.385  0.833  0.346  0.639
+sum           2.815    4.589    6.667   4.309   8.240  6.092  7.186  5.228
+median        0.268    0.481    0.667   0.472   0.816  0.550  0.732  0.557
+mean          0.281    0.459    0.667   0.431   0.824  0.609  0.719  0.523
+SE.mean       0.061    0.052    0.027   0.050   0.041  0.087  0.038  0.073
+CI.mean.0.95  0.137    0.117    0.062   0.114   0.093  0.197  0.086  0.165
+var           0.037    0.027    0.008   0.025   0.017  0.076  0.014  0.053
+std.dev       0.192    0.164    0.087   0.160   0.130  0.275  0.120  0.231
+coef.var      0.681    0.357    0.130   0.370   0.157  0.451  0.167  0.442
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.500
+max            0.846
+range          0.346
+sum            6.293
+median         0.619
+mean           0.629
+SE.mean        0.039
+CI.mean.0.95   0.088
+var            0.015
+std.dev        0.123
+coef.var       0.195
+
+
+=== === === ===
+[final] feature removed: meanCRP_over_5_in1y
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.281    0.459    0.667   0.431   0.824 0.609 0.719  0.523   0.629
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5630517
+ROC AUC 		0.5763889
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.088 	 0.364 	 	0.611 	 	0.333 	 	0.750		0.400	 	0.692	 	0.563	0.576
+
+[Execlution number 2 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6127847
+ROC AUC 		0.7692308
+
+
+TOTAL:
+
+ FN =  2  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.269 	 0.500 	 	0.667 	 	0.600 	 	0.692		0.429	 	0.818	 	0.613	0.769
+
+[Execlution number 3 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.1973056
+ROC AUC 		0.4555556
+
+
+TOTAL:
+
+ FN =  2  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  15 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  15 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.120 	 0.286 	 	0.722 	 	0.333 	 	0.800		0.250	 	0.857	 	0.197	0.456
+
+[Execlution number 4 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3480358
+ROC AUC 		0.6
+
+
+TOTAL:
+
+ FN =  2  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.194 	 0.462 	 	0.611 	 	0.600 	 	0.615		0.375	 	0.800	 	0.348	0.600
+
+[Execlution number 5 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.8085244
+ROC AUC 		0.78125
+
+
+TOTAL:
+
+ FN =  4  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.598 	 0.667 	 	0.778 	 	0.500 	 	1.000		1.000	 	0.714	 	0.809	0.781
+
+[Execlution number 6 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6192821
+ROC AUC 		0.6597222
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.444 	 	0.722 	 	0.333 	 	0.917		0.667	 	0.733	 	0.619	0.660
+
+[Execlution number 7 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6062371
+ROC AUC 		0.69375
+
+
+TOTAL:
+
+ FN =  4  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  6  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.100 	 0.500 	 	0.556 	 	0.500 	 	0.600		0.500	 	0.600	 	0.606	0.694
+
+[Execlution number 8 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6567092
+ROC AUC 		0.7592593
+
+
+TOTAL:
+
+ FN =  5  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  9 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  9 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.372 	 0.571 	 	0.667 	 	0.444 	 	0.889		0.800	 	0.615	 	0.657	0.759
+
+[Execlution number 9 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6361082
+ROC AUC 		0.7922078
+
+
+TOTAL:
+
+ FN =  2  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  7  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.342 	 0.625 	 	0.667 	 	0.714 	 	0.636		0.556	 	0.778	 	0.636	0.792
+
+[Execlution number 10 out of 10] we silence the meanCRP_over_5_in3y feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6058892
+ROC AUC 		0.575
+
+
+TOTAL:
+
+ FN =  8  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  8 	 (truth == 0) & (prediction >= threshold)
+ TN =  7  /  8 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.100 	 0.308 	 	0.500 	 	0.200 	 	0.875		0.667	 	0.467	 	0.606	0.575
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: meanCRP_over_5_in3y
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min           0.088    0.286    0.500   0.200   0.600  0.250  0.467  0.197
+max           0.598    0.667    0.778   0.714   1.000  1.000  0.857  0.809
+range         0.510    0.381    0.278   0.514   0.400  0.750  0.390  0.611
+sum           2.498    4.726    6.500   4.559   7.775  5.642  7.075  5.654
+median        0.231    0.481    0.667   0.472   0.775  0.528  0.724  0.610
+mean          0.250    0.473    0.650   0.456   0.777  0.564  0.708  0.565
+SE.mean       0.052    0.040    0.026   0.050   0.044  0.071  0.038  0.054
+CI.mean.0.95  0.117    0.091    0.059   0.113   0.100  0.160  0.085  0.122
+var           0.027    0.016    0.007   0.025   0.020  0.050  0.014  0.029
+std.dev       0.163    0.128    0.083   0.157   0.140  0.224  0.119  0.171
+coef.var      0.654    0.270    0.128   0.345   0.180  0.397  0.168  0.303
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.456
+max            0.792
+range          0.337
+sum            6.662
+median         0.677
+mean           0.666
+SE.mean        0.036
+CI.mean.0.95   0.081
+var            0.013
+std.dev        0.113
+coef.var       0.169
+
+
+=== === === ===
+[final] feature removed: meanCRP_over_5_in3y
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.250    0.473    0.650   0.456   0.777 0.564 0.708  0.565   0.666
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3297187
+ROC AUC 		0.5069444
+
+
+TOTAL:
+
+ FN =  5  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.125 	 0.250 	 	0.667 	 	0.167 	 	0.917		0.500	 	0.688	 	0.330	0.507
+
+[Execlution number 2 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3190799
+ROC AUC 		0.6071429
+
+
+TOTAL:
+
+ FN =  3  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  14 	 (truth == 0) & (prediction >= threshold)
+ TN =  13  /  14 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.236 	 0.333 	 	0.778 	 	0.250 	 	0.929		0.500	 	0.812	 	0.319	0.607
+
+[Execlution number 3 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.7943593
+ROC AUC 		0.80625
+
+
+TOTAL:
+
+ FN =  5  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.329 	 0.500 	 	0.667 	 	0.375 	 	0.900		0.750	 	0.643	 	0.794	0.806
+
+[Execlution number 4 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.361128
+ROC AUC 		0.5972222
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.088 	 0.364 	 	0.611 	 	0.333 	 	0.750		0.400	 	0.692	 	0.361	0.597
+
+[Execlution number 5 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3228698
+ROC AUC 		0.5384615
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  9  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.108 	 0.200 	 	0.556 	 	0.200 	 	0.692		0.200	 	0.692	 	0.323	0.538
+
+[Execlution number 6 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5050203
+ROC AUC 		0.7083333
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.351 	 0.545 	 	0.722 	 	0.500 	 	0.833		0.600	 	0.769	 	0.505	0.708
+
+[Execlution number 7 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4252414
+ROC AUC 		0.4861111
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  5  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.079 	 0.375 	 	0.444 	 	0.500 	 	0.417		0.300	 	0.625	 	0.425	0.486
+
+[Execlution number 8 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4247803
+ROC AUC 		0.55625
+
+
+TOTAL:
+
+ FN =  7  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  6  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.305 	 0.154 	 	0.389 	 	0.125 	 	0.600		0.200	 	0.462	 	0.425	0.556
+
+[Execlution number 9 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4091916
+ROC AUC 		0.6805556
+
+
+TOTAL:
+
+ FN =  6  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  0  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.250 	 0.000 	 	0.556 	 	0.000 	 	0.833		0.000	 	0.625	 	0.409	0.681
+
+[Execlution number 10 out of 10] we silence the Clinical_activity feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6857804
+ROC AUC 		0.6688312
+
+
+TOTAL:
+
+ FN =  4  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  11 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  11 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.396 	 0.545 	 	0.722 	 	0.429 	 	0.909		0.750	 	0.714	 	0.686	0.669
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: Clinical_activity
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      0.000    1.000    0.000   1.000   0.000  1.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min          -0.305    0.000    0.389   0.000   0.417  0.000  0.462  0.319
+max           0.396    0.545    0.778   0.500   0.929  0.750  0.812  0.794
+range         0.701    0.545    0.389   0.500   0.512  0.750  0.351  0.475
+sum           0.783    3.267    6.111   2.879   7.780  4.200  6.723  4.577
+median        0.106    0.348    0.639   0.292   0.833  0.450  0.690  0.417
+mean          0.078    0.327    0.611   0.288   0.778  0.420  0.672  0.458
+SE.mean       0.080    0.057    0.040   0.053   0.053  0.078  0.030  0.051
+CI.mean.0.95  0.181    0.128    0.090   0.120   0.119  0.177  0.068  0.116
+var           0.064    0.032    0.016   0.028   0.028  0.061  0.009  0.026
+std.dev       0.254    0.179    0.126   0.168   0.167  0.247  0.095  0.162
+coef.var      3.242    0.548    0.206   0.582   0.214  0.589  0.142  0.353
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.486
+max            0.806
+range          0.320
+sum            6.156
+median         0.602
+mean           0.616
+SE.mean        0.032
+CI.mean.0.95   0.072
+var            0.010
+std.dev        0.100
+coef.var       0.163
+
+
+=== === === ===
+[final] feature removed: Clinical_activity
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.078    0.327    0.611   0.288   0.778 0.420 0.672  0.458   0.616
+
+
+=== === === ===
+dim(these_patients_data): [1] 90 11
+Number of executions = 10
+[Execlution number 1 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4720561
+ROC AUC 		0.9
+
+
+TOTAL:
+
+ FN =  1  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  15 	 (truth == 0) & (prediction >= threshold)
+ TN =  14  /  15 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.600 	 0.667 	 	0.889 	 	0.667 	 	0.933		0.667	 	0.933	 	0.472	0.900
+
+[Execlution number 2 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4814847
+ROC AUC 		0.6319444
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.444 	 	0.722 	 	0.333 	 	0.917		0.667	 	0.733	 	0.481	0.632
+
+[Execlution number 3 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5555556
+ROC AUC 		0.6888889
+
+
+TOTAL:
+
+ FN =  1  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  15 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  15 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.255 	 0.400 	 	0.667 	 	0.667 	 	0.667		0.286	 	0.909	 	0.556	0.689
+
+[Execlution number 4 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.4729888
+ROC AUC 		0.575
+
+
+TOTAL:
+
+ FN =  4  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  10 	 (truth == 0) & (prediction >= threshold)
+ TN =  8  /  10 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.316 	 0.571 	 	0.667 	 	0.500 	 	0.800		0.667	 	0.667	 	0.473	0.575
+
+[Execlution number 5 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3644041
+ROC AUC 		0.5694444
+
+
+TOTAL:
+
+ FN =  5  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  1  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.125 	 0.250 	 	0.667 	 	0.167 	 	0.917		0.500	 	0.688	 	0.364	0.569
+
+[Execlution number 6 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.6580754
+ROC AUC 		0.7361111
+
+
+TOTAL:
+
+ FN =  4  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  12 	 (truth == 0) & (prediction >= threshold)
+ TN =  12  /  12 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.500 	 0.500 	 	0.778 	 	0.333 	 	1.000		1.000	 	0.750	 	0.658	0.736
+
+[Execlution number 7 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3680917
+ROC AUC 		0.6538462
+
+
+TOTAL:
+
+ FN =  3  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.169 	 0.400 	 	0.667 	 	0.400 	 	0.769		0.400	 	0.769	 	0.368	0.654
+
+[Execlution number 8 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.3550258
+ROC AUC 		0.6615385
+
+
+TOTAL:
+
+ FN =  3  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  11  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.265 	 0.444 	 	0.722 	 	0.400 	 	0.846		0.500	 	0.786	 	0.355	0.662
+
+[Execlution number 9 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.2738857
+ROC AUC 		0.4615385
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  10  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      -0.033 	 0.222 	 	0.611 	 	0.200 	 	0.769		0.250	 	0.714	 	0.274	0.462
+
+[Execlution number 10 out of 10] we silence the sex_0female_1male feature 
+perce_training_set = 80%[1] "dim(training_set)"
+[1] 72 10
+[1] "dim(test_set)"
+[1] 18 10
+
+PR AUC (integral) 	0.5978408
+ROC AUC 		0.6153846
+
+
+TOTAL:
+
+ FN =  3  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  0  /  13 	 (truth == 0) & (prediction >= threshold)
+ TN =  13  /  13 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.570 	 0.571 	 	0.833 	 	0.400 	 	1.000		1.000	 	0.812	 	0.598	0.615
+
+
+
+
+=== final results ===
+Number of executions = 10
+feature removed: sex_0female_1male
+                MCC F1_score accuracy TP_rate TN_rate    PPV    NPV PR_AUC
+nbr.val      10.000   10.000   10.000  10.000  10.000 10.000 10.000 10.000
+nbr.null      0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+nbr.na        0.000    0.000    0.000   0.000   0.000  0.000  0.000  0.000
+min          -0.033    0.222    0.611   0.167   0.667  0.250  0.667  0.274
+max           0.600    0.667    0.889   0.667   1.000  1.000  0.933  0.658
+range         0.633    0.444    0.278   0.500   0.333  0.750  0.267  0.384
+sum           3.084    4.471    7.222   4.067   8.618  5.936  7.762  4.599
+median        0.291    0.444    0.694   0.400   0.881  0.583  0.760  0.473
+mean          0.308    0.447    0.722   0.407   0.862  0.594  0.776  0.460
+SE.mean       0.064    0.044    0.027   0.053   0.035  0.083  0.028  0.038
+CI.mean.0.95  0.144    0.100    0.062   0.120   0.079  0.187  0.063  0.086
+var           0.041    0.020    0.008   0.028   0.012  0.068  0.008  0.015
+std.dev       0.201    0.140    0.087   0.168   0.110  0.261  0.088  0.121
+coef.var      0.653    0.313    0.120   0.414   0.127  0.440  0.114  0.263
+             ROC_AUC
+nbr.val       10.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.462
+max            0.900
+range          0.438
+sum            6.494
+median         0.643
+mean           0.649
+SE.mean        0.037
+CI.mean.0.95   0.083
+var            0.013
+std.dev        0.116
+coef.var       0.178
+
+
+=== === === ===
+[final] feature removed: sex_0female_1male
+       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean 0.308    0.447    0.722   0.407   0.862 0.594 0.776  0.460   0.649
+
+
+=== === === ===
+Total execution time: 1.488976 seconds
+0 days, 00 hours, 00 minutes, 1.49 seconds

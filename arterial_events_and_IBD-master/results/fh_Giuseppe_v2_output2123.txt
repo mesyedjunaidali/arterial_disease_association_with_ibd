@@ -1,0 +1,72 @@
+100 runs, arterial event, Random Forests: 
+  measure  mean    sd
+1     MCC 0.236 0.034
+2      F1 0.787 0.010
+3     ACC 0.688 0.014
+4     TPR 0.722 0.008
+5     TNR 0.555 0.036
+6     PPV 0.865 0.017
+7     NPV 0.336 0.021
+100 runs, event type, Random Forests: 
+  measure  mean    sd
+1     MCC 0.053 0.079
+2      F1 0.798 0.010
+3     ACC 0.681 0.018
+4     TPR 0.744 0.016
+5     TNR 0.317 0.077
+6     PPV 0.861 0.011
+7     NPV 0.185 0.068
+100 runs, arterial event, Gaussian SVM: 
+  measure  mean    sd
+1     MCC 0.900 0.000
+2      F1 0.967 0.000
+3     ACC 0.956 0.000
+4     TPR 0.984 0.004
+5     TNR 0.898 0.007
+6     PPV 0.951 0.003
+7     NPV 0.966 0.008
+100 runs, event type, linear SVM: 
+  measure  mean sd
+1     MCC 0.830  0
+2      F1 0.955  0
+3     ACC 0.933  0
+4     TPR 0.955  0
+5     TNR 0.875  0
+6     PPV 0.955  0
+7     NPV 0.875  0
+MonteCarlo, arterial event, Random Forests: 
+  measure  mean    sd
+1     MCC 0.271 0.232
+2      F1 0.791 0.067
+3     ACC 0.698 0.087
+4     TPR 0.732 0.060
+5     TNR 0.616 0.276
+6     PPV 0.871 0.113
+7     NPV 0.352 0.186
+MonteCarlo, event type, Random Forests: 
+  measure  mean    sd
+1     MCC 0.124 0.453
+2      F1 0.829 0.115
+3     ACC 0.734 0.161
+4     TPR 0.835 0.111
+5     TNR 0.323 0.412
+6     PPV 0.845 0.173
+7     NPV 0.290 0.456
+MonteCarlo, arterial event, Gaussian SVM: 
+  measure  mean    sd
+1     MCC 0.262 0.212
+2      F1 0.770 0.071
+3     ACC 0.683 0.088
+4     TPR 0.808 0.116
+5     TNR 0.435 0.204
+6     PPV 0.745 0.071
+7     NPV 0.553 0.184
+MonteCarlo, event type, linear SVM: 
+  measure  mean    sd
+1     MCC 0.083 0.452
+2      F1 0.726 0.170
+3     ACC 0.626 0.194
+4     TPR 0.678 0.226
+5     TNR 0.420 0.496
+6     PPV 0.838 0.151
+7     NPV 0.238 0.293

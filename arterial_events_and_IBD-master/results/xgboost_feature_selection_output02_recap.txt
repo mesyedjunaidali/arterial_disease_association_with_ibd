@@ -1,0 +1,64 @@
+
+Ranked from the least important to the most important
+
+[final] feature removed: meanCRP_over_5_in1y
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.290    0.414    0.717   0.349   0.891 0.626 0.744  0.553   0.691
+std.dev 0.215    0.194    0.095   0.203   0.093 0.284 0.113  0.194   0.147
+
+[final] feature removed: dyslipidemia
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.289    0.430    0.707   0.376   0.871 0.610 0.744  0.556   0.696
+std.dev 0.228    0.189    0.097   0.205   0.110 0.290 0.109  0.196   0.137
+
+[final] feature removed: CTC_1_0to20mgperday_2_over20mg
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.271    0.420    0.698   0.374   0.871 0.586 0.730  0.562   0.697
+std.dev 0.272    0.215    0.122   0.239   0.106 0.280 0.138  0.190   0.143
+
+[final] feature removed: TNFi
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.263    0.409    0.698   0.350   0.879 0.594 0.725  0.589   0.722
+std.dev 0.247    0.216    0.105   0.219   0.101 0.278 0.116  0.181   0.127
+
+[final] feature removed: immunossupressants
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.257    0.402    0.686   0.346   0.873 0.602 0.718  0.587   0.704
+std.dev 0.261    0.205    0.115   0.207   0.115 0.301 0.116  0.192   0.131
+
+
+[final] feature removed: diabetes
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.252    0.420    0.675   0.376   0.843 0.587 0.720  0.564   0.706
+std.dev 0.215    0.177    0.097   0.192   0.124 0.258 0.104  0.169   0.118
+
+[final] feature removed: meanCRP_over_5_in3y
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.236    0.377    0.693   0.310   0.884 0.584 0.721  0.548   0.682
+std.dev 0.233    0.202    0.094   0.191   0.090 0.299 0.102  0.181   0.128
+
+
+[final] feature removed: smoker
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.231    0.393    0.686   0.344   0.858 0.551 0.725  0.563   0.722
+std.dev 0.225    0.193    0.095   0.207   0.099 0.276 0.112  0.189   0.118
+
+
+[final] feature removed: arterial_hypertension
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.209    0.376    0.686   0.348   0.843 0.494 0.741  0.517   0.681
+std.dev 0.239    0.211    0.097   0.229   0.105 0.285 0.109  0.183   0.110
+
+
+[final] feature removed: sex_0female_1male
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.205    0.373    0.681   0.326   0.851 0.530 0.723  0.538   0.678
+std.dev 0.245    0.206    0.104   0.212   0.121 0.302 0.103  0.177   0.134
+
+[final] feature removed: Clinical_activity
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.143    0.328    0.637   0.286   0.824 0.500 0.695  0.503   0.657
+std.dev 0.223    0.177    0.101   0.183   0.134 0.289 0.108  0.186   0.117
+
+
+

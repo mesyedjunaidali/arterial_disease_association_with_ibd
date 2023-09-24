@@ -1,0 +1,5 @@
+method,mean,sd
+XGBoost,0.222,0.496
+Random Forests,0.139,0.455
+Linear SVM,0.111,0.459
+Logit,0.05,0.448
